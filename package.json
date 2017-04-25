@@ -1,0 +1,12 @@
+{
+  "name": "golden-retriever",
+  "version": "1.0.0",
+  "description": "Fetches from APIs in intervals",
+  "main": "index.js",
+  "repository": "https://github.com/obi-jan-kenobi/golden-retriever.git",
+  "author": "obi-jan-kenobi <j.sziegaud@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
