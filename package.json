@@ -6,7 +6,14 @@
   "repository": "https://github.com/obi-jan-kenobi/golden-retriever.git",
   "author": "obi-jan-kenobi <j.sziegaud@gmail.com>",
   "license": "MIT",
+  "scripts":{
+    "test": "mocha -R nyan"
+  },
   "dependencies": {
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
   }
 }
