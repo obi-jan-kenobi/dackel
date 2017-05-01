@@ -1,7 +1,7 @@
-# golden-retriever
+# dackel
 Fetches data from any API in intervals
 
-[![Build Status](https://travis-ci.org/obi-jan-kenobi/golden-retriever.svg?branch=master)](https://travis-ci.org/obi-jan-kenobi/golden-retriever)
+[![Build Status](https://travis-ci.org/obi-jan-kenobi/dackel.svg?branch=master)](https://travis-ci.org/obi-jan-kenobi/dackel)
 
 ## Table of contents
 - [Installation](#installation)
@@ -14,25 +14,30 @@ Fetches data from any API in intervals
 ## Installation
 
 ```
-$ npm install --save golden-retriever
+$ npm install --save dackel
 ```
 
 ```
-$ yarn add golden-retriever
+$ yarn add dackel
 ```
 
 ## Usage
 
 ```JavaScript
-const subscribe = require('golden-retriever');
+const subscribe = require('dackel')
 
-const unsubscribe = subscribe('https://api.github.com/users/obi-jan-kenobi', {interval: 10000}, user => console.log(user.public_repos)) // logs the number of  public_repos every 10 seconds to the console
+// logs the number of  public_repos every 10000ms to the console
+const unsubscribe = subscribe('https://api.github.com/users/obi-jan-kenobi',
+  {interval: 10000},
+  (err, response, user) => console.log(user.public_repos))
 
+// stops polling
+unsubscribe()
 ```
 
 ## API
 
-### golden-retriever(url, options, callback) -> 
+### dackel(url, options, callback) -> 
 
 - ```url``` String (required) - The csv content to parse
 - ```options``` Object (optional)

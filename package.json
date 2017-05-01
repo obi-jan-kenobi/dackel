@@ -1,9 +1,14 @@
 {
-  "name": "golden-retriever",
+  "name": "dackel",
   "version": "1.0.0",
   "description": "Fetches from APIs in intervals",
+  "keywords": [
+    "ajax",
+    "polling",
+    "requests"
+  ],
   "main": "index.js",
-  "repository": "https://github.com/obi-jan-kenobi/golden-retriever.git",
+  "repository": "https://github.com/obi-jan-kenobi/dackel.git",
   "author": "obi-jan-kenobi <j.sziegaud@gmail.com>",
   "license": "MIT",
   "scripts": {
