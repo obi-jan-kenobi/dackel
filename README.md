@@ -2,6 +2,7 @@
 Fetches data from any API in intervals
 
 [![Build Status](https://travis-ci.org/obi-jan-kenobi/dackel.svg?branch=master)](https://travis-ci.org/obi-jan-kenobi/dackel)
+[![Known Vulnerabilities](https://snyk.io/test/github/obi-jan-kenobi/dackel/badge.svg)](https://snyk.io/test/github/obi-jan-kenobi/dackel)
 
 ## Table of contents
 - [Installation](#installation)
@@ -37,10 +38,10 @@ unsubscribe()
 
 ## API
 
-### dackel(url, options, callback) -> 
+### dackel(url, options, callback) -> function
 
 - ```url``` String (required) - The csv content to parse
-- ```options``` Object (optional)
+- ```options``` Object (optional) - interval in ms + request-module options
 - ```callback``` Function (required) - Recieves http-response
 
 
