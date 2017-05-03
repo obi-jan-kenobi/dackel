@@ -3,6 +3,7 @@ Fetches data from any API in intervals
 
 [![Build Status](https://travis-ci.org/obi-jan-kenobi/dackel.svg?branch=master)](https://travis-ci.org/obi-jan-kenobi/dackel)
 [![Known Vulnerabilities](https://snyk.io/test/github/obi-jan-kenobi/dackel/badge.svg)](https://snyk.io/test/github/obi-jan-kenobi/dackel)
+[![codecov](https://codecov.io/gh/obi-jan-kenobi/dackel/branch/master/graph/badge.svg)](https://codecov.io/gh/obi-jan-kenobi/dackel)
 
 ## Table of contents
 - [Installation](#installation)

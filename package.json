@@ -1,6 +1,6 @@
 {
   "name": "dackel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetches from APIs in intervals",
   "keywords": [
     "ajax",
@@ -12,12 +12,18 @@
   "author": "obi-jan-kenobi <j.sziegaud@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",    
+    "coverage": "jest && codecov"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
   },
   "dependencies": {
     "request": "^2.81.0"
   },
   "devDependencies": {
+    "codecov": "^2.1.0",
     "jest": "^19.0.2",
     "standard": "^10.0.2"
   }
