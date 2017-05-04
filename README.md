@@ -46,7 +46,7 @@ unsubscribe()
 
 ### dackel(url, options, callback) -> function
 
-- ```url``` String (required) - The csv content to parse
+- ```url``` String (required) - url to poll
 - ```options``` Object (optional) - interval in ms + request-module options
 - ```callback``` Function (required) - Recieves http-response
 
