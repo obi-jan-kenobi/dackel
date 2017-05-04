@@ -28,10 +28,15 @@ $ yarn add dackel
 ```JavaScript
 const subscribe = require('dackel')
 
-// logs the number of  public_repos every 10000ms to the console
+// logs the user-data every 10000ms to the console
 const unsubscribe = subscribe('https://api.github.com/users/obi-jan-kenobi',
-  {interval: 10000},
-  (err, response, user) => console.log(user.public_repos))
+  {
+    interval: 10000,
+    headers: {
+      'User-Agent': 'dackel'
+    }
+  },
+  (err, response, user) => console.log(user))
 
 // stops polling
 unsubscribe()
@@ -54,5 +59,7 @@ $ npm test
 
 ## Changelog
 
+- 1.1.0
+  - Fixed exposure
 - 1.0.0
-  - Initial Release
+  - Initial release
