@@ -20,7 +20,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "codecov": "^3.3.0",

@@ -59,6 +59,8 @@ $ npm test
 
 ## Changelog
 
+- 2.0.0
+  - Updated deps
 - 1.1.0
   - Fixed exposure
 - 1.0.0
