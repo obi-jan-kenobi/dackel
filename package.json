@@ -23,7 +23,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "codecov": "^3.3.0",
+    "codecov": "^3.6.1",
     "jest": "^24.8.0",
     "standard": "^10.0.2"
   }
